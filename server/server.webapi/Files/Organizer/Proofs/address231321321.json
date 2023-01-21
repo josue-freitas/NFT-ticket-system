@@ -1,0 +1,51 @@
+{
+	"info": {
+		"_postman_id": "41d387e7-1e17-4a3c-8cea-06f8590d82d7",
+		"name": "CMU-3",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "18529229"
+	},
+	"item": [
+		{
+			"name": "Push-Notification-CMU-3",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "key=AAAA6ODlVP0:APA91bHWQxraDaNjSbP2PKscq_6VmTo9o83AS2TdSntlR4H5O4RQgINe24jjADnRRRxeHIsezh1I3eJCDEUXsNK7bXxwTkMbf31hSbv_tIYcQewTVHvHB__Pk1a8-vzCWc5sJREf8vA7",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"to\": \"/topics/fuel_notifications\",\r\n    \"data\": {\r\n        \"lpgPrice\": 0.98,\r\n        \"lpgDiff\": \"up\",\r\n        \"95Price\": 1.65,\r\n        \"95Diff\": \"down\",\r\n        \"98Price\": 1.97,\r\n        \"98Diff\": \"remain\",\r\n        \"dieselPrice\": 1.69,\r\n        \"dieselDiff\": \"up\"\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://fcm.googleapis.com/fcm/send",
+					"protocol": "https",
+					"host": [
+						"fcm",
+						"googleapis",
+						"com"
+					],
+					"path": [
+						"fcm",
+						"send"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,45 @@
+f6_0UDouTM2Bzzg8FRsyWs:APA91bEUTbcggq-eu1EFbXDASat16-hBD2JxC_ZpqF6oeoVLxx_idnVDTiWaCSA3UI7vJwXFiSfCzKaarmk-pK9wd5-6FPhUmNOtZYrz8HQSTGKrTu-yve9EArcTiHvSJQQmuR0RnH7o
+
+
+
+
+// to specific
+
+
+Content-Type : application/json
+Authorization : key=AAAA6ODlVP0:APA91bHWQxraDaNjSbP2PKscq_6VmTo9o83AS2TdSntlR4H5O4RQgINe24jjADnRRRxeHIsezh1I3eJCDEUXsNK7bXxwTkMbf31hSbv_tIYcQewTVHvHB__Pk1a8-vzCWc5sJREf8vA7
+
+
+{
+    "registration_ids": [
+        "f6_0UDouTM2Bzzg8FRsyWs:APA91bEUTbcggq-eu1EFbXDASat16-hBD2JxC_ZpqF6oeoVLxx_idnVDTiWaCSA3UI7vJwXFiSfCzKaarmk-pK9wd5-6FPhUmNOtZYrz8HQSTGKrTu-yve9EArcTiHvSJQQmuR0RnH7o"
+    ],
+    "notification": {
+        "body": "This is a Firebase Cloud Messaging Topic Message!",
+        "title": "FCM Message"
+    }
+}
+
+
+// FINAL
+
+Authorization : key=AAAA6ODlVP0:APA91bHWQxraDaNjSbP2PKscq_6VmTo9o83AS2TdSntlR4H5O4RQgINe24jjADnRRRxeHIsezh1I3eJCDEUXsNK7bXxwTkMbf31hSbv_tIYcQewTVHvHB__Pk1a8-vzCWc5sJREf8vA7
+
+
+{
+    "to": "/topics/geral",
+    "data": {
+        "lpgPrice": 0.98,
+        "lpgDiff": "up",
+        "95Price": 0.98,
+        "95Diff": "up",
+        "98Price": 0.98,
+        "98Diff": "up",
+        "dieselPrice": 0.98,
+        "dieselDiff": "up"
+    }
+}
+
+
+
+
