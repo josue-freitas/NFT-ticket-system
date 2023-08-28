@@ -1,16 +1,16 @@
-const API_URL_DEVELOPMENT = "https://localhost:7276/api";
+const API_URL_DEVELOPMENT = "https://nft-ticket-plataform.azurewebsites.net/api";
 const CLIENT_URL_DEVELOPMENT = "/app";
 
 const development = {
   CONTRACT_ADDRESS: "0x0E094593c2837d5B3885fC2b3C1b6724Da393DD9",
 
-  SERVER_URL: "https://localhost:7276",
+  SERVER_URL: "https://nft-ticket-plataform.azurewebsites.net/",
 
   URL_LOGIN_ORGANIZER: `${CLIENT_URL_DEVELOPMENT}/organizer/login`,
   URL_LOGIN_BACKOFFICE: `${CLIENT_URL_DEVELOPMENT}/back-office/login`,
   URL_LOGIN_VALIDATOR: `${CLIENT_URL_DEVELOPMENT}/validator/login`,
 
-  URL_ROOT_API: "https://localhost:7276/",
+  URL_ROOT_API: "https://nft-ticket-plataform.azurewebsites.net/",
   URL_STRUCTURES: `${API_URL_DEVELOPMENT}/structures/`,
   URL_PURCHASES: `${API_URL_DEVELOPMENT}/purchase/`,
   URL_VALIDATORSGROUP: `${API_URL_DEVELOPMENT}/validatorsgroup/`,
