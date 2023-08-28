@@ -1,10 +1,12 @@
 const API_URL_DEVELOPMENT = "https://nft-ticket-plataform.azurewebsites.net/api";
+console.log('API_URL_DEVELOPMENT');
+console.log(API_URL_DEVELOPMENT);
 const CLIENT_URL_DEVELOPMENT = "/app";
 
 const development = {
   CONTRACT_ADDRESS: "0x0E094593c2837d5B3885fC2b3C1b6724Da393DD9",
 
-  SERVER_URL: "https://nft-ticket-plataform.azurewebsites.net/",
+  SERVER_URL: "https://nft-ticket-plataform.azurewebsites.net",
 
   URL_LOGIN_ORGANIZER: `${CLIENT_URL_DEVELOPMENT}/organizer/login`,
   URL_LOGIN_BACKOFFICE: `${CLIENT_URL_DEVELOPMENT}/back-office/login`,
